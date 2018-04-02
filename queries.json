@@ -1,0 +1,34 @@
+[
+  {
+    "subject": "Desired subject of mail to be sent",
+    "filename": "desired_file_name",
+    "type":"DAILY",
+    "to": [
+      "x@y.com",
+      "y@x.com"
+    ],
+    "headers": [
+      "column1",
+      "column2"
+    ],
+    "query": [
+      " SELECT ", "column 1,","column2,","column3"," FROM tableX", " WHERE some condition is true"
+    ]
+  },
+  {
+    "subject": "Desired subject of mail to be sent",
+    "filename": "desired_file_name",
+    "type":"WEEKLY",
+    "to": [
+      "x@y.com",
+      "y@x.com"
+    ],
+    "headers": [
+      "column1",
+      "column2"
+    ],
+    "query": [
+      " SELECT ", "column 1,","column2,","column3"," FROM tableX", " WHERE some condition is true"
+    ]
+  }
+]
